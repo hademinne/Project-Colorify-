@@ -1,0 +1,31 @@
+.text {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  font-size: 25px;
+  font-weight: 50px;
+}
+
+h1 {
+  padding-left: 200px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.buttons {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
