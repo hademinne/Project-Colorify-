@@ -6,3 +6,8 @@ function paint(color) {
   circle.style = `background-color:${color}`;
   console.log(circle);
 }
+
+function getRandColor() {
+  const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
+  document.getElementById("circleID").style.backgroundColor = randomColor;
+}
